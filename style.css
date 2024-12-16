@@ -1,0 +1,37 @@
+body {
+    background-color: aqua;
+}
+
+
+h1 {
+    font-size: 28px;
+    color: #fff;
+    background-color: blue;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+section {
+    margin-top: 65px;
+}
+
+p {
+    text-align: center;
+}
+
+.lista-centralizada {
+    margin-top: 50px;
+    display: flex; /* Ativa o Flexbox para a lista */
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padrão */
+}
+
+.lista-centralizada li {
+    margin: 0 15px; /* Espaçamento horizontal entre os itens */
+    text-align: center; /* Alinha o texto dentro de cada li ao centro */
+}
