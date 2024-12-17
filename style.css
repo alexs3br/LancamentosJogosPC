@@ -1,12 +1,15 @@
 body {
-    background-color: aqua;
+    background-color: #135864
 }
 
+.imagem1 {
+    width: 18%;
+    height: 18%;
+}
 
 h1 {
-    font-size: 28px;
     color: #fff;
-    background-color: blue;
+    background-color: #002127;
     text-align: center;
 }
 
@@ -34,4 +37,16 @@ p {
 .lista-centralizada li {
     margin: 0 15px; /* Espaçamento horizontal entre os itens */
     text-align: center; /* Alinha o texto dentro de cada li ao centro */
+}
+
+.game-list2 {
+    margin-top: 80px;
+}
+
+.game-list3 {
+    margin-top: 80px;
+}
+
+hr {
+    color: #000
 }
